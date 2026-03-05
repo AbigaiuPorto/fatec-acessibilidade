@@ -242,10 +242,46 @@
       color: var(--muted);
       font-size: .95em;
     }
+
+    :root {
+    --base-font: 16px;
+  }
+
+  #conteudo {
+    font-size: var(--base-font);
+  }
+
+  button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+  }
   </style>
+
+
+<script defer>
+  let tamanhoAtual = 16;
+
+  function aumentarFonte() {
+    tamanhoAtual += 2;
+    document.documentElement.style.setProperty("--base-font", tamanhoAtual + "px");
+  }
+
+  function diminuirFonte() {
+    tamanhoAtual -= 2;
+    document.documentElement.style.setProperty("--base-font", tamanhoAtual + "px");
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("aumentar").addEventListener("click", aumentarFonte);
+    document.getElementById("diminuir").addEventListener("click", diminuirFonte);
+  });
+</script>
+
+
 </head>
 
-<body>
+<body id="conteudo">
   <div class="topbar">
     <div class="container">
       <div class="topbar-inner">
@@ -278,6 +314,9 @@
       </div>
     </div>
   </div>
+
+  <button id="aumentar">A+</button>
+<button id="diminuir">A-</button>
 
   <div class="page">
     <div class="container">

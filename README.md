@@ -2,18 +2,40 @@
 
 # ATIVIDADE 01
 
- nesse algoritmo foi feito a implementação de dois botões para aumento e diminuição de página , usando html, css e JavaScript
-
+ Nesse algoritmo foi feito a implementação de três  botões para aumento e diminuição de página , e fonte padrao
 ## Estrutura do Projeto
 
 - `index.html` – página principal contendo:
-  - Dois botões: `A+` e `A-` para aumentar e diminuir a fonte.
+  - Trê botões: `A+`, `A-` e : `Fonte Padrão` para aumentar ,diminuir a fonte e voltar ao tamanho padrão.
   - JavaScript usando funções `aumentarFonte()` e `diminuirFonte()`.
+  - foi separado o css e JavaCript da página do index e foi criado uma pasta separada para cada um deles
+- a cor, e tamanho da fonte dos botões foram alteradas.
 
-##  Como funciona
 
-1. A variável CSS `--base-font` define o tamanho padrão da fonte.
-2. O JavaScript altera essa variável dinamicamente quando os botões são clicados.
-3. O script está no `<head>` com o atributo `defer` para garantir que os elementos HTML já existam ao executar o código.
-4. Cada clique aumenta ou diminui a fonte em 2px.
+# Estrutura do Projeto
 
+O projeto está organizado da seguinte forma:
+
+index.html
+
+Contém a estrutura da página
+
+Inclui os três botões: A+, A- e Fonte Padrão css/
+
+Arquivo separado para estilização
+
+Alteração de cor, tamanho da fonte e aparência dos botões
+
+js/
+
+Arquivo JavaScript separado
+
+Implementação das funções:
+
+aumentarFonte()
+
+diminuirFonte()
+
+fontePadrao()
+
+A separação dos arquivos foi realizada para manter o código mais organizado e seguindo boas práticas de desenvolvimento.

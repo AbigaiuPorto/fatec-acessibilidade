@@ -22,12 +22,13 @@ js/
 
 # ATIVIDADE 01 - MELHORIAS
 -adicionou o botão fonte
-  - foi separado o css e JavaCript da página do index e foi criado uma pasta separada para cada um deles
+  - foi separado o Css e JavaScript da página do index e foi criado uma pasta separada para cada um deles
 - a cor, e tamanho da fonte dos botões foram alteradas.
 
 ## Estrutura do Projeto
 - `index.html` – página principal contendo:
   - Trê botões: `A+`, `A-` e : `Fonte Padrão` para aumentar ,diminuir a fonte e voltar ao tamanho padrão.
+  - Css formatação da página
   - JavaScript usando funções `aumentarFonte()` e `diminuirFonte()`.
   
 O projeto está organizado da seguinte forma:

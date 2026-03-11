@@ -8,6 +8,7 @@
 - `index.html` – página principal contendo:
   - Trê botões: `A+`, `A-` e : `Fonte Padrão` para aumentar ,diminuir a fonte e voltar ao tamanho padrão.
   - JavaScript usando funções `aumentarFonte()` e `diminuirFonte()`.
+  -adicionou o botão fonte padrão
   - foi separado o css e JavaCript da página do index e foi criado uma pasta separada para cada um deles
 - a cor, e tamanho da fonte dos botões foram alteradas.
 

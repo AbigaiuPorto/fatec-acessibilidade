@@ -1,4 +1,23 @@
 # Projeto base para aula de Acessibilidade
+Algoritmo: Controle de Tamanho da Fonte
+
+Início
+
+Definir tamanho da fonte padrão como 16
+
+Quando o botão "A+" for clicado
+    Aumentar o tamanho da fonte em 2
+    Aplicar o novo tamanho da fonte na página
+
+Quando o botão "A-" for clicado
+    Diminuir o tamanho da fonte em 2
+    Aplicar o novo tamanho da fonte na página
+
+Quando o botão "Fonte Padrão" for clicado
+    Voltar o tamanho da fonte para 16
+    Aplicar o tamanho padrão na página
+
+Fim
 
 # ATIVIDADE 01
 
